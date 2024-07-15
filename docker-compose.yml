@@ -5,10 +5,10 @@ services:
     ports:
       - "8080:8080"
     environment:
-      DB_HOST: db
-      DB_PORT: 3306
-      DB_USER: root
-      DB_SECRET: sajal48
+      DB_HOST: host
+      DB_PORT: port
+      DB_USER: user
+      DB_SECRET: secret
     networks:
       - mysql_mysql-phpmyadmin
 
